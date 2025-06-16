@@ -12,7 +12,27 @@ font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
+h1,h2,h3,p,ul { margin: 0;   padding: 0;}
+
+
+img {display: block;}
+
+.header{
+  border-bottom: 1px solid #e7e9fc ;}
+.container{
+  display: flex;
+  align-items: center;
+padding: 0 15px;
+width: 1158px;
+margin: 0 auto;
+}
+.header-navigate{display: flex;
+align-items: center;
+}
+
+
 .logo{ font-family: "Raleway", sans-serif;
+  margin-right: 76px;
   font-weight: 700;
    font-size: 18px;
 line-height: 1.17;
@@ -23,7 +43,13 @@ color: #4d5ae5;
 .header-span{
 color: #2e2f42;
 }
-.first{ font-weight: 500;
+.menu{display: flex;
+  gap: 40px;
+
+
+}
+.first{ padding: 24px 0 ;
+  font-weight: 500;
   font-size: 16px ;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -32,7 +58,7 @@ color: #2e2f42;
 .first:hover{color: #404bbf;}
 .first:focus{color: #404bbf;}
 
-.address{font-style: normal;}
+.address{font-style: normal;display: flex;gap: 40px; }
 .mail{font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -47,13 +73,20 @@ color: #434455;}
 
 .effective{background-color: #2e2f42 ;}
 
-.effective-h{font-size: 56px;
+.effective-h{
+  max-width: 496px;
+  font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #ffffff;
 }
-.button{background-color: #4D5AE5;
+.button{border-radius: 4px;
+  border: none;
+  min-width: 169px;
+  height: 56px;
+  display: block;
+  background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
