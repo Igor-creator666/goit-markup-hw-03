@@ -26,7 +26,7 @@ background-color: #FFFFFF;
 }
   
 .container {
-  display: flex;
+  
   width: 1158px;
   align-items: center;
   justify-content: space-between;
@@ -242,11 +242,7 @@ color: #434455;
   margin: auto;
   padding: 100px 0;
   background-color: #2e2f42;}
-.footer-container{width: 1158px;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 15px;}
+
 .logo-footer{display: inline-block;
   margin-bottom: 16px; font-family: "Raleway", sans-serif;
   margin-right: 115px;
