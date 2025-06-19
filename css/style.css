@@ -37,8 +37,6 @@ background-color: #FFFFFF;
 }
   
 .container-header {
-  max-width: 1158px;
-    margin:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +109,7 @@ color: #434455;}
   background-color: #2e2f42 ;
 padding: 188px 0}
 
-.first-Title{margin: 0 auto;
+.first-title{margin: 0 auto;
   margin-bottom: 48px;
   max-width: 496px;
   font-size: 56px;
