@@ -26,7 +26,7 @@ background-color: #FFFFFF;
 }
   
 .container {
-  
+  display: flex;
   width: 1158px;
   align-items: center;
   justify-content: space-between;
